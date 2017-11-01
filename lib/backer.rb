@@ -9,8 +9,8 @@ class Backer
   def back_project(title)
     new_project = Project.new(title)
     @backed_projects << new_project
-    if !(new_project.backer == self)
-      new_project.backer = self
+    if !(new_project.backers == self)
+      new_project.backers = self
     end
   end
 
