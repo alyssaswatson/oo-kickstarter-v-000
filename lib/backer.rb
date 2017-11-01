@@ -9,6 +9,9 @@ class Backer
   def back_project(title)
     new_project = Project.new(title)
     @backed_projects << new_project
+    if !(new_project.owner == self)
+      new_dong.owner = self
+    end
 
 
   end
