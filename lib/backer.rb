@@ -1,4 +1,4 @@
-class Backers
+class Backer
   attr_accessor :projects
 
   def initialize
