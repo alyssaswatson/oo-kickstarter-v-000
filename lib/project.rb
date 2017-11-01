@@ -10,8 +10,8 @@ class Project
     if new_backer.is_a? Backer
       if !(@backer == new_backer)
       @backer = new_backer
+      end
     end
   end
-end
 
 end
