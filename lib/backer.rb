@@ -12,8 +12,6 @@ class Backer
     if !(new_project.owner == self)
       new_dong.owner = self
     end
-
-
   end
 
 end
