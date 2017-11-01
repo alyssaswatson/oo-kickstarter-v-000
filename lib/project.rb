@@ -12,5 +12,6 @@ class Project
       @backer = new_backer
     end
   end
+end
 
 end
